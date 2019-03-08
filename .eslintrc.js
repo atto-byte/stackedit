@@ -10,6 +10,7 @@ module.exports = {
     browser: true,
   },
   extends: 'airbnb-base',
+  
   // required to lint *.vue files
   plugins: [
     'html'
@@ -30,6 +31,7 @@ module.exports = {
   },
   // add your custom rules here
   'rules': {
+    "linebreak-style": 0,
     'no-param-reassign': [2, { 'props': false }],
     // don't require .vue extension when importing
     'import/extensions': ['error', 'always', {
